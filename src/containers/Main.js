@@ -10,7 +10,6 @@ import MessageForm from "../containers/MessageForm"
 
 const Main = props => {
     const { authUser, errors, removeError, currentUser } = props
-    console.log("MAIN CURRENT USER:", currentUser);
     return(
         <div className="container">
             <Switch>

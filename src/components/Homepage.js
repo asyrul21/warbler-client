@@ -15,7 +15,6 @@ const Homepage = ({ currentUser }) => {
             </div>
         )
     }
-    console.log("Current User:", currentUser);
     return(
         <div>
             <MessageTimeline 

@@ -3,7 +3,6 @@ import DefaultProfileImage from "../images/default-profile-image.jpg"
 
 const UserAside = (props) => {
     const {profileImageUrl, username} = props
-    console.log("PROPS:", props);
     return (
         <aside className="col-sm-2">
             <div className="panel panel-default">
