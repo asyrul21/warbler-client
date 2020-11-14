@@ -31,6 +31,8 @@ git push origin master
 heroku create warbler-client-asy --buildpack mars/create-react-app
 ```
 
+5. Create static.json in root
+
 # Dependencies
 
 ```bash
